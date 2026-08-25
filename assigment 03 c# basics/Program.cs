@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using Microsoft.VisualBasic;
+using System.Drawing;
 using System.Dynamic;
 using System.Timers;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -61,7 +62,10 @@ namespace assigment_03_c__basics
             //    Console.WriteLine("Done");
             //}
 
-
+            //5.Declare an int pages = 300; then store it in a double variable without using a cast.
+            //int pages = 300;
+            //double value = pages;
+            //This works because int → double is an implicit conversion.
 
 
 
