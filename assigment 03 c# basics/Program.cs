@@ -1,5 +1,7 @@
 ﻿using System.Drawing;
 using System.Dynamic;
+using System.Timers;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace assigment_03_c__basics
 {
@@ -35,6 +37,19 @@ namespace assigment_03_c__basics
             //Console.WriteLine(book.Equals(book));
             //Console.WriteLine(book.GetHashCode());
             //Console.WriteLine(book.GetType());
+
+            //3.Is this a compile-time, runtime, or logical error?
+            //int pages = "464";
+            //This is a compile - time error
+            //Because "464" is a string, while pages is declared as an int.
+
+            ////Fix:
+            //int pages = 464;
+            //int pages = int.Parse("464");
+
+
+
+
         }
     }
 }
