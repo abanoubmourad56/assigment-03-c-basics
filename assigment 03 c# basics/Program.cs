@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualBasic;
 using System.Drawing;
 using System.Dynamic;
+using System.Runtime.Intrinsics.X86;
 using System.Timers;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -78,6 +79,24 @@ namespace assigment_03_c__basics
             //int pages = Convert.ToInt32(pagesText);
             //Console.WriteLine(pages);
 
+            //8.Given string yearText = "2023";, convert it using int.Parse(). Then given string badText = "abc";, use int.TryParse() to safely try converting it, and print "Invalid number" if it fails.
+            //string yearText = "2023";
+
+            //int year = int.Parse(yearText);
+
+            //Console.WriteLine(year);
+
+
+            //string badText = "abc";
+
+            //if (int.TryParse(badText, out int number))
+            //{
+            //    Console.WriteLine(number);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid number");
+            //}
 
 
 
