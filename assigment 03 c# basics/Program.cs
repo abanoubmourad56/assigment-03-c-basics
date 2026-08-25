@@ -47,6 +47,23 @@ namespace assigment_03_c__basics
             //int pages = 464;
             //int pages = int.Parse("464");
 
+            //4.Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot divide by zero", and then prints "Done" in a finally block.
+            //try
+            //{
+            //    int result = 10 / 0;
+            //}
+            //catch (DivideByZeroException)
+            //{
+            //    Console.WriteLine("Cannot divide by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done");
+            //}
+
+
+
+
 
 
 
