@@ -67,6 +67,12 @@ namespace assigment_03_c__basics
             //double value = pages;
             //This works because int → double is an implicit conversion.
 
+            //6. Declare a double price = 49.99; then convert it into an int using a cast.
+            //double price = 49.99;
+            //int value = (int)price;
+
+            //Console.WriteLine(value);
+
 
 
 
