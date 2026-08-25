@@ -73,6 +73,12 @@ namespace assigment_03_c__basics
 
             //Console.WriteLine(value);
 
+            //7. Given string pagesText = "464";, convert it into an int using the Convert class.
+            //string pagesText = "464";
+            //int pages = Convert.ToInt32(pagesText);
+            //Console.WriteLine(pages);
+
+
 
 
 
